@@ -1,0 +1,20 @@
+body{
+	text-align: center;
+	background-color:;
+	font-family: Helvetica;
+}
+	h1{
+		font-family: Arial;
+		font-weight: normal;
+	}
+	hr{
+		widtih: 200px;
+	}
+#slogan{
+	font-style: italic; 
+	font-size: 24px;
+p{
+	font-size: 22px;
+	font-family: "Courier New"
+}
+}
