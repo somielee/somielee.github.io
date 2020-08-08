@@ -1,15 +1,18 @@
 body{
 	text-align: center;
-	background-color:#FFFF00;
+	background-color:#ffff00;
 	font-family: Helvetica;
 }
 	h1{
 		font-family: Arial;
 		font-weight: normal;
-		color: #0000FF;
+		color: #0000ff;
 	}
 	hr{
-		widtih: 200px;
+		widtih: 300px;
+	}
+	ul{
+		text-align: bottom;
 	}
 #slogan{
 	font-style: italic; 
