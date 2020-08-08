@@ -1,12 +1,12 @@
 body{
 	text-align: center;
-	background-color:#ffff00;
+	text-color: rgb(0,0,250);
 	font-family: Helvetica;
 }
 	h1{
 		font-family: Arial;
 		font-weight: normal;
-		color: #0000ff;
+		color: rgb(0,250,0);
 	}
 	hr{
 		widtih: 300px;
