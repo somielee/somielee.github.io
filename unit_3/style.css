@@ -1,6 +1,6 @@
 body{
 	text-align: center;
-	background-color:;
+	color: rgb(0,0,250);
 	font-family: Helvetica;
 }
 	h1{
@@ -8,13 +8,17 @@ body{
 		font-weight: normal;
 	}
 	hr{
-		widtih: 200px;
+		width: 500px;
+	}
+	ul{
+		text-align: left;
+	}
+	p{
+		font-size: 22px;
+		font-family: Courier New
 	}
 #slogan{
 	font-style: italic; 
 	font-size: 24px;
-p{
-	font-size: 22px;
-	font-family: "Courier New"
-}
+	text-decoration-color: rgb(238,130,238);
 }
