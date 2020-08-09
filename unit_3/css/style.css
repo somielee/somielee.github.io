@@ -6,19 +6,18 @@ body{
 	h1{
 		font-family: Arial;
 		font-weight: normal;
-		color: rgb(0,250,0);
 	}
 	hr{
-		widtih: 300px;
+		widtih: 500px;
 	}
 	ul{
-		text-align: bottom;
+		text-align: left;
 	}
 #slogan{
 	font-style: italic; 
 	font-size: 24px;
+	text-decoration-color: rgb(238,130,238);
 p{
 	font-size: 22px;
 	font-family: "Courier New"
-}
 }
