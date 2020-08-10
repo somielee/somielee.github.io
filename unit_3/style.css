@@ -1,10 +1,14 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+</style>
 body{
 	text-align: center;
 	color: rgb(255,99,71);
 	font-family: Helvetica;
 }
 	h1{
-		font-family: Arial;
+		font-family: "Mono";
+		src: url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 		font-weight: normal;
 	}
 	hr{
