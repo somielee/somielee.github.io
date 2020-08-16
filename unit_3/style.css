@@ -7,9 +7,13 @@ body{
 	font-family: Helvetica,Ariel,Sans-serif;
 }
 	h1{
-		font-family: "Mono", Monospace;
-		src: url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+		font-family: Major Mono display, Monospace;
+		src: url(''https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 		font-weight: normal;
+	}
+	img{
+		max-width: 100%;
+		heigh: auto;
 	}
 	hr{
 		width: 500px;
@@ -17,7 +21,8 @@ body{
 
 	p{
 		font-size: 22px;
-		font-family: Courier New,Cursive;
+		font-family: Sedgwick Ave Display ,Cursive;
+		src: url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet");
 	}
 #slogan{
 	font-style: italic; 
