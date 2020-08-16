@@ -1,13 +1,13 @@
-<style>
+
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
-</style>
+
 body{
 	text-align: center;
 	color: rgb(255,99,71);
-	font-family: Helvetica;
+	font-family: Helvetica,Ariel,Sans-serif;
 }
 	h1{
-		font-family: "Mono";
+		font-family: "Mono", Monospace;
 		src: url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 		font-weight: normal;
 	}
@@ -17,7 +17,7 @@ body{
 
 	p{
 		font-size: 22px;
-		font-family: Courier New
+		font-family: Courier New,Cursive;
 	}
 #slogan{
 	font-style: italic; 
