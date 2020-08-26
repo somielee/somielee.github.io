@@ -21,7 +21,11 @@ nav{
 	border: 1px black solid;
 	padding 20px;
 }
-
+aside{
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding 20px;
+}
 	img{
 		max-width: 100%;
 		heigh: auto;
@@ -34,9 +38,13 @@ nav{
 		font-size: 22px;
 		font-family: Sedgwick Ave Display ,Cursive;
 		src: url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet");
-	}
-#slogan{
-	font-style: italic; 
-	font-size: 24px;
-	text-decoration-color: rgb(238,130,238);
+div/section{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding 20px;
+}	
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding 20px;
 }
