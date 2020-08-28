@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 
 body{
+	font-size: 18px;
 	text-align: center;
 	color: rgb(255,99,71);
 	font-family: Helvetica,Ariel,Sans-serif;
@@ -11,16 +12,45 @@ body{
 	border: 1px solid black;
 	padding:; 20px;
 }
+h1,h2{
+	font-weight: 800;
+}
 h1{
 	font-family: Major Mono display, Monospace;
-	src: url(''https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 	font-weight: normal;
 	color: rgb(0,206,209);
+	font-size: 2em;
+	border-bottom: 4px solid blue;
+	display: inline-block;
 }
-.nav{
-	background-color: #E8C66A;
-	border: 1px solid black;
-	padding:; 20px;
+h2{
+	text-transform: uppercase;
+	font-size: 1.5em;
+	padding: .8em 0;
+	font-family: 'Open Sans', Sans-serif;
+}
+img {
+	display: block;
+	margin: 0 auto;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+footer{
+	text-align: center;
+	padding: 1em 0;
+}
+nav{
+	font-size: 1.8em;
+	float: right;
+}
+nav a{
+	text-decoration: none;
+	color: #000000;
+	margin: 1.8em;
+	display: inline-block;
 }
 .aside{
 	background-color: #FFC675;
@@ -30,9 +60,6 @@ h1{
 img{
 	max-width: 100%;
 	heigh: auto;
-	}
-hr{
-	width: 500px;
 	}
 
 p{
