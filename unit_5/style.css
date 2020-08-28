@@ -7,7 +7,7 @@ body{
 	color: rgb(255,99,71);
 	font-family: Helvetica,Ariel,Sans-serif;
 }
-.header {
+header {
 	background-color: #FFED74;
 	border: 1px solid black;
 	padding:; 20px;
@@ -28,9 +28,12 @@ h2{
 	font-size: 1.5em;
 	padding: .8em 0;
 	font-family: 'Open Sans', Sans-serif;
+	color: rgb(0,206,209);
+	border-bottom-color: rgb(0,206,209);
 }
 img {
 	display: block;
+	width: 100%;
 	margin: 0 auto;
 }
 ul{
@@ -38,9 +41,15 @@ ul{
 	margin: 0;
 	padding: 0;
 }
-footer{
+li{
+	float: left;
+	width: 50%;
+	height: 6em;
+	outline: 3px solid #222;
 	text-align: center;
-	padding: 1em 0;
+	line-height: 6em;
+	color: #000;
+	background: #fff;
 }
 nav{
 	font-size: 1.8em;
@@ -52,28 +61,54 @@ nav a{
 	margin: 1.8em;
 	display: inline-block;
 }
-.aside{
-	background-color: #FFC675;
-	border: 1px solid black;
-	padding:; 20px;
+section{
+	background: #222;
+	color: #fff;
+	overflow: auto;
 }
 img{
 	max-width: 100%;
 	heigh: auto;
 	}
+div{
+	font-size: 1.2em;
+	width: 46%;
+	padding: 2%;
+	display: inline-block;
+}
 
 p{
 	font-size: 22px;
 	font-family: Sedgwick Ave Display ,Cursive;
 	src: url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet");
 }
-.div {
-	background-color: #FFE2B8;
-	border: 1px solid black;
+#wrapper {
+	background: #FFED74; 
+}
+#activities{
+	float: left;
+	width: 560px;
 	padding: 20px;
-}	
-.footer{
-	background-color: #FF957E;
-	border: 1px solid black;
-	padding:; 20px;
+	margin: 0 0 0 30px;
+}
+aside{
+	float: right;
+	font-size: 14px;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0  20px 0 0;
+}
+
+footer{
+	background-color: #cccccc;
+	text-align: right;
+	padding: 1em 0;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
