@@ -11,10 +11,10 @@ header{
 	border: 1px black solid;
 	padding 20px;
 }
-	h1{
-		font-family: Major Mono display, Monospace;
-		src: url(''https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
-		font-weight: normal;
+h1{
+	font-family: Major Mono display, Monospace;
+	src: url(''https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+	font-weight: normal;
 }
 nav{
 	background-color: #E8C66A;
