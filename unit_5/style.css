@@ -6,45 +6,47 @@ body{
 	color: rgb(255,99,71);
 	font-family: Helvetica,Ariel,Sans-serif;
 }
-header{
-	background-color: #FFED74
-	border: 1px black solid;
-	padding 20px;
+.header {
+	background-color: #FFED74;
+	border: 1px solid black;
+	padding:; 20px;
 }
 h1{
 	font-family: Major Mono display, Monospace;
 	src: url(''https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 	font-weight: normal;
+	color: rgb(0,206,209);
 }
-nav{
+.nav{
 	background-color: #E8C66A;
-	border: 1px black solid;
-	padding 20px;
+	border: 1px solid black;
+	padding:; 20px;
 }
-aside{
+.aside{
 	background-color: #FFC675;
-	border: 1px black solid;
-	padding 20px;
+	border: 1px solid black;
+	padding:; 20px;
 }
-	img{
-		max-width: 100%;
-		heigh: auto;
+img{
+	max-width: 100%;
+	heigh: auto;
 	}
-	hr{
-		width: 500px;
+hr{
+	width: 500px;
 	}
 
-	p{
-		font-size: 22px;
-		font-family: Sedgwick Ave Display ,Cursive;
-		src: url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet");
-div/section{
+p{
+	font-size: 22px;
+	font-family: Sedgwick Ave Display ,Cursive;
+	src: url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet");
+}
+.div {
 	background-color: #FFE2B8;
-	border: 1px black solid;
-	padding 20px;
+	border: 1px solid black;
+	padding: 20px;
 }	
-footer{
+.footer{
 	background-color: #FF957E;
-	border: 1px black solid;
-	padding 20px;
+	border: 1px solid black;
+	padding:; 20px;
 }
