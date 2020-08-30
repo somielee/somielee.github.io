@@ -84,6 +84,10 @@ section{
 div{
 	font-size: 1.2em;
 }
+img{
+	widows: 400px;
+	height: 400px;
+}
 p{
 	font-size: 22px;
 	font-family: Sedgwick Ave Display ,Cursive;
