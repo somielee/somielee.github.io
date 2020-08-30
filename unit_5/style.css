@@ -23,13 +23,16 @@ h1{
 	border-bottom: 4px solid blue;
 	display: inline-block;
 }
+#slogan {
+	font-size: 2em;
+	}
 nav{
 	font-size: 1.8em;
 }
 nav a{
 	text-decoration: none;
 	color: #000000;
-	margin: 1em;
+	margin: .5em;
 	display: inline-block;
 	float: left;
 	padding: 10px;
@@ -80,9 +83,6 @@ section{
 }
 div{
 	font-size: 1.2em;
-	width: 46%;
-	padding: 2%;
-	display: inline-block;
 }
 p{
 	font-size: 22px;
