@@ -32,7 +32,7 @@ nav a{
 	margin: 1.8em;
 	display: inline-block;
 	float: left;
-	padding: 20px;
+	padding: 10px;
 }
 .clearfix:after {
 	visibility: hidden;
