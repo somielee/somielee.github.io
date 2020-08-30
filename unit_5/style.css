@@ -29,7 +29,7 @@ nav{
 nav a{
 	text-decoration: none;
 	color: #000000;
-	margin: 1.8em;
+	margin: 1em;
 	display: inline-block;
 	float: left;
 	padding: 10px;
@@ -76,7 +76,7 @@ li{
 section{
 	background: #222;
 	color: #fff;
-	overflow: auto;
+	float: left;
 }
 div{
 	font-size: 1.2em;
