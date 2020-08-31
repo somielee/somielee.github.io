@@ -28,15 +28,15 @@ h1{
 	}
 nav{
 	font-size: 1.8em;
+	float: left;
 }
 nav a{
 	text-decoration: none;
 	color: #000000;
 	margin: 20 20 20 30px;
 	display: inline-block;
-	float: left;
-	padding: 20px;
-	background-color: #aaaaaa;
+    padding: 20px;
+	background-color: rgb(255,99,71);
 }
 .clearfix:after {
 	visibility: hidden;
@@ -47,7 +47,7 @@ nav a{
 	height: 0;
 }
 a:hover{
-	background-color: #aaaaaa;
+	background-color: rgb(255,99,71);
 }
 h2{
 	text-transform: uppercase;
@@ -59,7 +59,7 @@ h2{
 }
 img {
 	display: block;
-	width: 100%;
+	width: 400px;
 	margin: 0 auto;
 }
 ul{
@@ -87,8 +87,8 @@ div{
 }
 img{
 	float: right;
-	object-fit: none;
-	object-position: 5px 10%;
+	display: block;
+	margin: 0 auto;
 	border: 5px solid blue;
 }
 
@@ -112,10 +112,10 @@ aside{
 	width: 400px;
 	padding: 20px 0;
 	margin: 0  20px 0 0;
+	overflow: auto;
 }
 
 footer{
-	float: none;
 	background-color: #cccccc;
 	text-align: center;
 	padding: 1em 0;
