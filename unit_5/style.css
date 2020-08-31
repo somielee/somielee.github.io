@@ -87,8 +87,6 @@ div{
 }
 img{
 	float: right;
-	width: 400px;
-	height: 300px;
 	object-fit: none;
 	object-position: 5px 10%;
 	border: 5px solid blue;
@@ -117,15 +115,8 @@ aside{
 }
 
 footer{
+	float: none;
 	background-color: #cccccc;
 	text-align: center;
 	padding: 1em 0;
-}
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
 }
