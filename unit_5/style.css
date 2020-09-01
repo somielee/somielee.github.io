@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 
 body{
-	font-size: 18px;
 	text-align: center;
 	color: rgb(255,99,71);
 	font-family: Helvetica,Ariel,Sans-serif;
@@ -29,8 +28,6 @@ h1{
 nav{
 	font-size: 1.8em;
 	float: left;
-}
-nav a{
 	text-decoration: none;
 	color: #000000;
 	margin: 20 20 20 30px;
@@ -97,9 +94,7 @@ p{
 	font-family: Sedgwick Ave Display ,Cursive;
 	src: url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet");
 }
-#wrapper {
-	background: #FFED74; 
-}
+
 #activities{
 	float: left;
 	width: 600px;
