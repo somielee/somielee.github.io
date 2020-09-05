@@ -1,88 +1,55 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+.clearfix{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
 
 body{
-	text-align: center;
-	color: rgb(255,99,71);
-	font-family: Helvetica,Ariel,Sans-serif;
+	text-align:center;
+	color:rgb(255,99,71);
+	font-family:Helvetica,Ariel,sans-serif;
 }
+
 header {
-	background-color: #FFED74;
-	border: 1px solid black;
-	padding: 20px;
-}
-h1,h2{
-	font-weight: 800;
-}
-h1{
-	font-family: Major Mono display, Monospace;
-	color: rgb(0,206,209);
-	font-size: 3em;
-	border-bottom: 4px solid blue;
-	display: inline-block;
+	background-color:#FFED74;
+	border:1px solid black;
 }
 
 #slogan {
-	font-size: 2em;
+	font-size:2em;
 	}
 
+h1{
+	font-family:Major Mono display, Monospace;
+	color:rgb(0,206,209);
+	font-size:3em;
+	border-bottom:4px solid blue;
+}
+
 nav{
-	font-size: 1.8em;
-	float: left;
-	text-decoration: none;
-	color: #000000;
-	margin: 20 20 20 30px;
-	display: inline-block;
-    padding: 20px;
-	background-color: rgb(255,99,71);
+	font-size:1.8em;
+	color:#000000;
+	background-color:rgb(255,99,71);
 }
 
 nav a:hover{
-	background-color: rgb(255,99,71);
+	background-color:rgb(255,99,71);
 }
 
 h2{
 	text-transform: uppercase;
 	font-size: 1.5em;
-	padding: .8em 0;
-	font-family: 'Open Sans', Sans-serif;
-	color: rgb(0,206,209);
-	border-bottom-color: rgb(0,206,209);
+	font-family: 'Open Sans',sans-serif;
+	color:rgb(0,206,209);
+	border-bottom-color:rgb(0,206,209);
 }
 
-ul{
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
 li{
-	float: left;
-	width: 40%;
-	height: 6em;
 	outline: 3px solid #222;
 	text-align: center;
-	line-height: 6em;
 	color: #000;
 	background: #fff;
-}
-#two_column{
-	background-color: #FFB7CF
-	border: 1px black solid;
-	padding: 20px;
-}
-#left {
-	background-color: #E582A2
-	border: 1px black solid;
-	padding: 20px;
-	float: left;
-	width: 30%;
-}
-#right {
-	background-color: #E55B88;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 62%;
 }
 
 img{
@@ -94,24 +61,10 @@ img{
 
 p{
 	font-size: 22px;
-	font-family: Sedgwick Ave Display ,Cursive;
-	src: url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet");
 }
 
 footer{
 	background-color: #cccccc;
 	text-align: center;
-	padding: 1em 0;
-	position: absolute;
-	bottom: 0;
-	width: 100%
-	height 2.5rem;
 }
 
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
