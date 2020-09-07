@@ -3,6 +3,7 @@
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
+	clear: both;
 }
 
 body{
@@ -57,9 +58,6 @@ li{
 
 img{
 	float: right;
-	display: block;
-	margin: 0 auto;
-	border: 5px solid blue;
 }
 
 p{
