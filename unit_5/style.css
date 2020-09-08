@@ -47,6 +47,7 @@ h2{
 }
 #activities{
 	float:left;
+	clear: both;
 }
 
 li{
@@ -58,6 +59,7 @@ li{
 
 img{
 	float: right;
+	clear: both;
 }
 
 p{
