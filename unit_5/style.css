@@ -32,9 +32,6 @@ nav{
 	font-size:1.8em;
 	color:#000000;
 	background-color:rgb(255,99,71);
-}
-
-nav a{
 	text-align: left;
 }
 
@@ -53,9 +50,10 @@ h2{
 	color:rgb(0,206,209);
 	border-bottom-color:rgb(0,206,209);
 }
+
 div{
 	float: left;
-	width: 60%;
+	width: 50%;
 }
 
 li{
