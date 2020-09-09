@@ -1,9 +1,8 @@
 
-.clearfix{
+*{
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
-	clear: both;
 }
 
 body{
@@ -35,12 +34,14 @@ nav{
 	background-color:rgb(255,99,71);
 }
 
+nav
+a
+{
+	text-align: left;
+}
+
 a{
 	color: white;
-	background-color: #ff7900;
-	float: left;
-	padding: 20px;
-	display: block;
 }
 
 nav a:hover{
@@ -54,8 +55,8 @@ h2{
 	color:rgb(0,206,209);
 	border-bottom-color:rgb(0,206,209);
 }
-#activities{
-	float:left;
+div{
+	float: left;
 }
 
 li{
@@ -63,6 +64,7 @@ li{
 	text-align: center;
 	color: #000;
 	background: #fff;
+	pedding
 }
 
 img{
@@ -77,4 +79,8 @@ footer{
 	background-color:#cccccc;
 	text-align:center;
 }
-
+.clearfix:after{
+	display:none;
+	content: " ";
+	clear:both;
+}
