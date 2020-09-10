@@ -54,6 +54,7 @@ h2{
 div{
 	float: left;
 	width: 60%;
+	height: auto;
 	padding: 40px;
 }
 
@@ -68,6 +69,7 @@ li{
 img{
 	float: right;
 	width: 35%;
+	height: auto;
 }
 
 h3{
@@ -83,6 +85,7 @@ p{
 footer{
 	background-color:#cccccc;
 	text-align:center;
+	padding: 10px;
 }
 .clearfix:after{
 	display:none;
