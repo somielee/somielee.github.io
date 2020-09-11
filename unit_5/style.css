@@ -59,9 +59,9 @@ div{
 }
 
 li{
-	outline: 3px solid #222;
+	outline: 3px solid rgb(102,153,153);
 	text-align: center;
-	color: #000;
+	color:rgb(153,102,115);
 	background: #fff;
 	padding:20px;
 }
