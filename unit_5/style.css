@@ -30,7 +30,6 @@ h1{
 
 nav{
 	font-size:1.8em;
-	color:#000000;
 	background-color:rgb(189,98,98);
 	text-align: left;
 }
@@ -80,6 +79,7 @@ h3{
 p{
 	font-size:22px;
 	padding: 20px;
+	color: rgb(189,98,98);
 }
 
 footer{
