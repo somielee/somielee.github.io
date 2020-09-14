@@ -89,7 +89,7 @@ footer{
 	padding: 10px;
 }
 .clearfix:after{
-	display:none;
+	display:block;
 	content: " ";
 	clear:both;
 }
