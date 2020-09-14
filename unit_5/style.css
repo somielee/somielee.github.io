@@ -20,6 +20,7 @@ header {
 
 #slogan {
 	font-size:2em;
+	color: rgb(184,116,85);
 	}
 
 h1{
@@ -31,7 +32,7 @@ h1{
 
 nav{
 	font-size:1.8em;
-	background-color:rgb(237,184,121);
+	background-color:rgb(184,116,85);
 	text-align: right;
 	word-spacing: 15px;
 }
@@ -60,7 +61,7 @@ div{
 }
 
 li{
-	outline: 3px solid rgb(189,98,98);
+	outline: 3px solid rgb(184,116,85);
 	text-align: center;
 	color:rgb(153,102,115);
 	background: rgb(25,121,169);
