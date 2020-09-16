@@ -120,6 +120,9 @@ img{
 	float:none;
 	display:none;
 }
+nav{
+	text-align: center;
+}
 div{
 	float:none;
 	width:80%;
