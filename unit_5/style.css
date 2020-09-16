@@ -122,6 +122,7 @@ img{
 }
 div{
 	float:none;
+	width:80%;
 }
 p, h3{
 	display:none;
