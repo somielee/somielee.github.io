@@ -101,11 +101,15 @@ footer{
 div{
 	padding: 20px;
 }
-
 p{
 	font-size: .7em;
 }
 
 }
 
-@media only screen and (max-width: )
+@media only screen and (max-width: 1120px) {
+
+h3{
+	font-size: 1em;
+}
+}
