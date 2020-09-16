@@ -113,3 +113,16 @@ h3{
 	font-size: 1em;
 }
 }
+
+@media only screen and (max-width: 1000px) {
+
+img{
+	display: none;
+}
+p{
+	font-size:1.5em;
+}
+h3{
+	font-size:2.0em;
+}
+}
