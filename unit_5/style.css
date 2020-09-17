@@ -119,6 +119,7 @@ h3{
 
 img{
 	float:none;
+	width: 70%;
 }
 nav{
 	text-align: center;
@@ -126,7 +127,4 @@ nav{
 div{
 	float:none;
 	width:100%;
-}
-#discription{
-	display:none;
 }
