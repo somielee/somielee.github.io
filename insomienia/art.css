@@ -44,6 +44,9 @@ a{
 nav a:hover{
 	background-color:rgb(25,94,131);
 }
+div{
+	folat: left;
+}
 
 img{
 	width:45%;
