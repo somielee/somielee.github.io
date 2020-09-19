@@ -36,7 +36,6 @@ nav{
 	text-align: right;
 	word-spacing: 15px;
 	margin: 5 20 5 20;
-	color: rgb(173,255,47);
 }
 
 a{
@@ -46,6 +45,7 @@ a{
 
 nav a:hover{
 	background-color:rgb(25,94,131);
+	color: rgb(173,255,47);
 }
 
 h2{
