@@ -71,6 +71,10 @@ li{
 	list-style:none; 
 }
 
+li a:hover{
+	color: rgb(173,255,47);
+}
+
 img{
 	float: right;
 	width: 35%;
