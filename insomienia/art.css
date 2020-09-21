@@ -20,6 +20,7 @@ header {
 #slogan {
 	font-size:2em;
 	color: rgb(184,116,85);
+	text-align: center;
 	}
 
 h1{
@@ -55,13 +56,15 @@ h2{
 
 img {
 	width: 30%;
-	height: 30%
+	height: 40%;
+	padding: 20px;
 }
 
 p{
 	font-size:22px;
 	padding: 20px;
 	color: rgb(189,98,98);
+	text-align: left;
 }
 
 footer{
@@ -70,6 +73,9 @@ footer{
 	padding: 10px;
 }
 
+footer a:hover{
+	color: rgb(173,255,47);
+}
 .clearfix:after{
 	display:block;
 	content: " ";
