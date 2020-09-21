@@ -79,7 +79,7 @@ img{
 	float: right;
 	width: 35%;
 	height: auto;
-	border: 15px solid rgb(173,255,47);
+	border: 10px solid rgb(173,255,47);
 	border-radius: 30px;
 	padding: 10px;
 }
@@ -100,6 +100,10 @@ footer{
 	background-color:#cccccc;
 	text-align:center;
 	padding: 10px;
+}
+
+footer a:hover{
+	color: rgb(173,255,47);
 }
 .clearfix:after{
 	display:block;
@@ -137,4 +141,15 @@ nav{
 div{
 	float:none;
 	width:100%;
+}
+
+@media only screen and (max-width: 1000px) {
+
+h1{
+	font-size:2em;
+}
+#slogan{
+	font-size:1em;
+}
+
 }
