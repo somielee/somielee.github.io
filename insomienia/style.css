@@ -146,6 +146,9 @@ div{
 h1{
 	font-size:2em;
 }
+img{
+	width: 80%;
+}
 #slogan{
 	font-size:1em;
 }
