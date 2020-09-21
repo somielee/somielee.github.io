@@ -78,6 +78,10 @@ footer{
 footer a:hover{
 	color: rgb(173,255,47);
 }
+
+#contact {
+	text-align: center;
+}
 .clearfix:after{
 	display:block;
 	content: " ";
