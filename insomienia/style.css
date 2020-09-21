@@ -132,8 +132,7 @@ h3{
 
 img{
 	float:none;
-	width: 70%;
-	height:50%;
+	width: 50%;
 }
 nav{
 	text-align: center;
@@ -150,9 +149,6 @@ h1{
 }
 #slogan{
 	font-size:1em;
-}
-img{
-	height: 30%;
 }
 
 }
