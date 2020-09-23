@@ -82,8 +82,19 @@ footer a:hover{
 #contact {
 	text-align: center;
 }
+
 .clearfix:after{
 	display:block;
 	content: " ";
 	clear:both;
 }
+
+@media only screen and (max-width: 520px) {
+	h1{
+		font-size: 2em;
+	}
+	#slogan{
+		font-size:1.5em;
+	}
+}
+
