@@ -57,11 +57,12 @@ h2{
 
 img {
 	width: 30%;
-	height: 40%;
 	padding: 20px;
 	float:left;
 }
-
+div {
+	height: 30%;
+}
 p{
 	font-size:22px;
 	padding: 20px;
