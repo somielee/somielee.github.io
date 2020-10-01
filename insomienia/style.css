@@ -84,9 +84,10 @@ img{
 }
 
 h3{
-	padding: 20px;
+	padding: 30px;
 	border-bottom:4px solid rgb(204,231,232);
 	color: rgb(102,153,153);
+	font-size: 1.5em;
 }
 
 p{
